@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <img src="2025_01_18_0q4_Kleki.png" alt="BMI Calc">
+
+  <div id="Header">
+    <h1 id="Display" class="text-center">Calorie Calculator</h1>
+    <h4 id="bmr"></h4>
+  </div>
+  <form>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    </form>
+  
+<div id="o"></div>
+
+ 
+  </div>
+
+  <div id="skills" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#skills" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#skills" data-bs-slide-to="1" class="active"></button>
+
+    </div>
+
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <h3>Imperial Units</h3>
+        <div id="a"></div>
+        Weight(lbs) <input type="input" id="weight">
+        <div id="a"></div>
+        Age <input type="input" id="age">
+        <div id="a"></div>
+        Feet <input type="input" id="feet"> 
+        <div id="a"></div>
+        Inches<input type="input" id="inches">
+        <div id="a"></div>
+        Days of Excercise <input type="input" id="activity">
+
+        <button id="usSave" onclick="usSave()">Save</button>
+        <button id="calcUs" onclick="calcCaloriesUS()">Enter</button>
+
+        
+        <div class="carousel-caption  ">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <h3>Metric Units</h3>
+        <div id="a"></div>
+        Weight(kg) <input type="input" id="kg" >
+        <div id="a"></div>
+        Age <input type="input" id="mAge">
+        <div id="a"></div>
+        Centimeters <input type="input" id="meters">
+        <div id="a"></div>
+        Days of Excercise <input type="input" id="mActivity">
+
+        <button id="saveMetric" onclick="metricSave()" >Save</button>
+        <button id="calculateBMR()" onclick="calculateBMR()">Enter</button>
+
+        
+        
+        
+        
+        
+
+        <div class="carousel-caption">
+        </div>
+      </div>
+</div>
+
+    <button class="carousel-control-prev " type="button" data-bs-target="#skills" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#skills" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+  
+    
+
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+</body>
+</html>
